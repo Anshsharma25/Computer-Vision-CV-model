@@ -1,1 +1,3 @@
 # Computer-Vision-CV-model
+
+a Computer Vision (CV) system powered by a Convolutional Neural Network (CNN). It processes images by first preprocessing them—resizing to consistent dimensions, normalizing pixel values, and augmenting the data for better training. Using MobileNetV2, a pretrained CNN backbone, the model extracts hierarchical features like edges, textures, and shapes, which are crucial for distinguishing between classes. The extracted features are passed through a global average pooling layer to create a compact representation, followed by a dense layer with a sigmoid activation function that outputs a probability score between 0 and 1.
